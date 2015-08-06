@@ -16,9 +16,13 @@ for (i = 1; i <= 100; i++) {
 
 
 function myFunction() {
-    var userEntry = prompt("Please enter a number", userEntry);
-    if (userEntry != null) {
-        document.getElementById("demo").innerHTML =
-        userEntry;
+    var userEntry = prompt("Please enter a number", userEntry);    
+    if (userEntry != "15") {
+        document.getElementById("demo").innerHTML = userEntry;
+    }
+    else if (userEntry = "15") {
+        document.getElementById("demo").innerHTML = "FizzBuzz";
     }
 }
+
+// will have to use parseInt() to convert the user entry to an integer so it can be evaluated with the previous logic and returned appropriately
