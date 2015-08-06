@@ -1,4 +1,4 @@
-var i;
+/* var i;
 for (i = 1; i <= 100; i++) {
     if ((i%3 == 0) && (i%5 == 0)) {
     document.write('FizzBuzz<br>');
@@ -11,5 +11,14 @@ for (i = 1; i <= 100; i++) {
     }
     else {
     document.write(i + '<br>');
+    }
+} */
+
+
+function myFunction() {
+    var userEntry = prompt("Please enter a number", userEntry);
+    if (userEntry != null) {
+        document.getElementById("demo").innerHTML =
+        userEntry;
     }
 }
