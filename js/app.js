@@ -6,6 +6,7 @@ function fizzBuzz() {
         else document.write(x + "<br>");
     }
 }
+//found this on: http://codepen.io/laurengalanter/pen/CnFDh?editors=101
 
 
 // this writes the full list on page load
